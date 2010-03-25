@@ -927,7 +927,6 @@
 				<exclude name="el-api*.jar"/>
 				<exclude name="jetty*.jar"/>
 				<exclude name="jasper*.jar"/>
-				<exclude name="ehcache*.jar"/>
 				<exclude name="whirly*.jar"/>
 				<exclude name="Grobo*.jar"/>
 				<exclude name="grobo*.jar"/>
