@@ -342,11 +342,6 @@ public class Serializer {
 	public boolean serializeField(String keyName, Field field, Method getter) {
 		if ("class".equals(keyName)) return false;
 
-		if (field != null && Modifier.isTransient(field.getModifiers())) {
-			log.warn("Using \"transient\" to declare fields not to be serialized is deprecated and will be removed in Red5 0.8, use \"@DontSerialize\" instead.");
-			return false;
-		}
-
 		if ((field != null && field.isAnnotationPresent(DontSerialize.class)) || (getter != null && getter.isAnnotationPresent(DontSerialize.class))) {
 			log.debug("Skipping {} because its marked with @DontSerialize", keyName);
 			return false;
