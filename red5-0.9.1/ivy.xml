@@ -32,16 +32,16 @@
     <dependency org="tomcat" name="jasper-jdt" rev="6.0.26" /> 
     <dependency org="tomcat" name="jasper-el" rev="6.0.26" />
     <!-- Spring --> 
-    <dependency org="org.springframework" name="spring-asm" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-beans" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-context" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-core" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-web" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-expression" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-jdbc" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-orm" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-tx" rev="3.0.1.RELEASE" />
-    <dependency org="org.springframework" name="spring-aop" rev="3.0.1.RELEASE" />
+    <dependency org="org.springframework" name="spring-asm" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-beans" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-context" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-core" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-web" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-expression" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-jdbc" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-orm" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-tx" rev="3.0.2.RELEASE" />
+    <dependency org="org.springframework" name="spring-aop" rev="3.0.2.RELEASE" />
     <!-- Tomcat --> 
     <dependency org="tomcat" name="catalina" rev="6.0.26" />
     <dependency org="tomcat" name="tomcat-coyote" rev="6.0.26" />
