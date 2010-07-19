@@ -409,6 +409,8 @@ public class ConversionUtils {
 	 * @return            Instance of given class
 	 */
 	protected static Object newInstance(String className) {
+	    if( className.equals("java.lang.Class") )
+		return null;
 		ClassLoader cl =  Thread.currentThread().getContextClassLoader();
 		log.debug("Conversion utils classloader: {}", cl);
 		Object instance = null;
